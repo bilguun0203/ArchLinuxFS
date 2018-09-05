@@ -1,12 +1,12 @@
 #!/bin/bash
 
 ARCH="x86_64"
-ROOTFS_VER="2018.07.01"
+ROOTFS_VER="2018.09.01"
 ROOTFS_FN="archlinux-bootstrap-${ROOTFS_VER}-${ARCH}.tar.gz"
 ROOTFS_URL="http://mirrors.kernel.org/archlinux/iso/${ROOTFS_VER}/${ROOTFS_FN}"
 
-FRTCP_BLD="17121600"
-FRTCP_VER="1.22-1"
+FRTCP_BLD="18082100"
+FRTCP_VER="1.23-1"
 FRTCP_FN="fakeroot-tcp-${FRTCP_VER}-${ARCH}.pkg.tar.xz"
 FRTCP_URL="https://github.com/yuk7/arch-prebuilt/releases/download/${FRTCP_BLD}/${FRTCP_FN}"
 
